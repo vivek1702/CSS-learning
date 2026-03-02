@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+}
+
+/* for id we use #  */
+#paral {
+  color: rgb(1, 26, 47);
+}
+
+/* for class we use dot */
+.headingTwo {
+  color: rgb(104, 60, 6);
+  font-style: italic;
+}
+
+/* sudo class selectors  */
+a:hover {
+  color: darkgreen;
+  font-weight: 600;
+}
