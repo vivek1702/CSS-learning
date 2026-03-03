@@ -1,0 +1,102 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      :root {
+        --primary-color: grey;
+      }
+      .header-container {
+        background-color: var(--primary-color);
+        font-weight: bold;
+        font-size: xx-large;
+        text-align: center;
+        padding: 2rem;
+        color: white;
+        border-radius: 0.5rem;
+      }
+      .nav-container {
+        background-color: rgb(172, 172, 172);
+        padding: 1rem;
+        margin-top: 30px;
+        text-align: center;
+        border-radius: 0.5rem;
+      }
+      a:hover {
+        text-decoration: underline; /* Adds underline on hover */
+      }
+      .list-nonBullet {
+        list-style: none;
+      }
+      .inLine-items {
+        display: inline;
+
+        padding: 0rem 2rem;
+        font-size: medium;
+        font-weight: bold;
+      }
+      .link {
+        text-decoration: none;
+        color: white;
+      }
+      .container-title {
+        padding: 2rem;
+        border: 2px solid rgb(185, 185, 185);
+        border-radius: 0.5rem;
+        text-align: center;
+        margin-top: 30px;
+      }
+      .blog-content {
+        padding: 1rem;
+        border: 2px solid rgb(185, 185, 185);
+        border-radius: 0.5rem;
+        font-size: larger;
+        margin-top: 30px;
+      }
+      .container-posts {
+        list-style: none;
+        padding: 1rem;
+        border: 2px solid rgb(185, 185, 185);
+        border-radius: 0.5rem;
+        margin-top: 30px;
+      }
+      .post-style {
+        padding: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header-container">BLOG TITLE</header>
+
+    <nav class="nav-container">
+      <div>
+        <ul class="list-nonBullet">
+          <li class="inLine-items"><a href="/" class="link">Home</a></li>
+          <li class="inLine-items">
+            <a href="/catgeories" class="link">Catgeories</a>
+          </li>
+          <li class="inLine-items"><a href="/about" class="link">About</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="container-title">Blog Post Title</h1>
+    <p class="blog-content">Blog Post Content preview</p>
+    <ul class="container-posts">
+      <li class="post-style">Post 1</li>
+      <hr />
+      <li class="post-style">Post 2</li>
+      <hr />
+      <li class="post-style">Post 3</li>
+    </ul>
+    <footer class="nav-container" style="margin-top: 50px">
+      <ul class="list-nonBullet">
+        <li class="inLine-items"><a href="/" class="link">Contact</a></li>
+        <li class="inLine-items">
+          <a href="/about" class="link">Privacy Policy</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
