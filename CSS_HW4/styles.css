@@ -1,0 +1,246 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.info-form-card {
+  width: 300px;
+  height: 300px;
+  border: 2px solid gray;
+  border-radius: 0.5rem;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.info-form-items {
+  width: 100%;
+  border-radius: 0.2rem;
+  border: 1px solid grey;
+  padding: 5px;
+}
+.form-submit-btn {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+}
+.login-card {
+  width: 300px;
+  height: 300px;
+  border: 2px solid grey;
+  border-radius: 0.5rem;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+}
+
+.login-form-text {
+  margin-left: 75px;
+}
+
+.login-form-items {
+  width: 50%;
+  border-radius: 0.2rem;
+  border: 2px solid lightslategray;
+  padding: 5px;
+  margin-left: 75px;
+}
+
+.login-submit-btn {
+  width: 50%;
+  background-color: rgb(3, 90, 145);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 0.2rem;
+  margin-left: 75px;
+}
+
+.photo-gallery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.photo-gallery-list {
+  list-style: none;
+  padding: 5px;
+}
+
+.photo-gallery-listItemsOne {
+  display: inline;
+  padding: 5px;
+  border: 1px solid rgb(73, 73, 210);
+  border-radius: 0.5rem;
+  background-color: rgb(73, 73, 210);
+  color: white;
+}
+
+.photo-gallery-listItems {
+  display: inline;
+  padding: 5px;
+}
+
+.card-row {
+  margin: 10px;
+}
+
+.card-row-items {
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: rgb(124, 124, 124);
+  margin-left: 10px;
+}
+
+.pricing-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 20px;
+}
+.pricing-card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+}
+.price-card-header {
+  width: 30%;
+  border: 1px solid black;
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.price-card-plans {
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.price-plansPrice {
+  margin: 5px;
+  margin-left: 20px;
+  width: 30%;
+  background-color: rgb(239, 239, 239);
+  padding: 4px;
+  border-radius: 0.2rem;
+}
+.styled-hr {
+  border: none;
+  height: 2px;
+  background-color: #cbcaca;
+  width: 90%;
+  margin: 10px auto;
+  top: 80px;
+}
+.priceCard-listStyle {
+  list-style: none;
+  margin: 5px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: gray;
+}
+.price-cardbutton {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  width: 30%;
+  background-color: black;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.order-card {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  border: 4px solid green;
+}
+.order-header {
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.order-rowCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order-card-rowOne {
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.rowOne-header {
+  margin: 0px;
+  margin-top: 10px;
+}
+.rowOne-para {
+  margin: 0px;
+  margin-top: 10px;
+}
+.rowOne-secondPara {
+  margin: 0px;
+}
+.order-card-rowTwo {
+  text-align: center;
+}
+.order-card-rowThree {
+  margin-right: 20px;
+  align-items: center;
+}
+
+.order-rowcardTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.order-card-rowfour {
+  margin: 0px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.order-btn {
+  width: 90%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(126, 238, 126);
+  color: white;
+  border: none;
+  font: 800;
+}
+.order-lastPara {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 800;
+}

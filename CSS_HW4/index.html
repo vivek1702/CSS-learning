@@ -1,0 +1,155 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS_HW4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info-form-card">
+        <label for="">Name</label>
+        <input type="text" class="info-form-items" />
+        <br />
+        <label for="">Email</label>
+        <input type="text" class="info-form-items" />
+        <br />
+        <label for="">Message</label>
+        <textarea
+          name=""
+          id=""
+          class="info-form-items"
+          rows="4"
+          cols="30"
+        ></textarea>
+        <br />
+        <br />
+        <button class="form-submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="login-card">
+        <h2 style="text-align: center">Login</h2>
+        <label for="" class="login-form-text">Email: </label>
+        <input type="text" class="login-form-items" />
+        <br />
+        <label for="" class="login-form-text">Password: </label>
+        <input type="text" class="login-form-items" />
+        <br />
+        <br />
+        <button class="login-submit-btn">login</button>
+        <br />
+        <a
+          href="/"
+          style="
+            text-decoration: none;
+            color: rgb(3, 90, 145);
+            margin-left: 75px;
+          "
+          >Forget Password?</a
+        >
+      </div>
+    </div>
+
+    <div class="photo-gallery-container">
+      <h1>Photo Gallery</h1>
+      <ul class="photo-gallery-list">
+        <li class="photo-gallery-listItemsOne">All</li>
+        <li class="photo-gallery-listItems">Nature</li>
+        <li class="photo-gallery-listItems">Birds</li>
+        <li class="photo-gallery-listItems">Animals</li>
+      </ul>
+      <div class="card-row">
+        <img
+          src="https://placehold.co/80x80?text=Nature"
+          alt="nature-image"
+          class="card-row-items"
+        />
+        <img
+          src="https://placehold.co/80x80?text=Birds"
+          alt="birds-image"
+          class="card-row-items"
+        />
+        <img
+          src="https://placehold.co/80x80?text=Animals"
+          alt="animal-image"
+          class="card-row-items"
+        />
+      </div>
+    </div>
+    <div class="pricing-row">
+      <div class="pricing-card">
+        <p class="price-card-header">1 month Free</p>
+        <h2 class="price-card-plans">Basic Plan</h2>
+        <p class="price-plansPrice">$9.99/mo</p>
+        <hr class="styled-hr" />
+        <ul class="priceCard-listStyle">
+          <li>Ad-free music listening</li>
+          <li>Download 10k songs/device</li>
+          <li>login 3 device</li>
+        </ul>
+        <button class="price-cardbutton">Sign up</button>
+      </div>
+
+      <div class="pricing-card">
+        <p class="price-card-header">1 month Free</p>
+        <h2 class="price-card-plans">Pro Plan</h2>
+        <p class="price-plansPrice">$19.99/mo</p>
+        <hr class="styled-hr" />
+        <ul class="priceCard-listStyle">
+          <li>Ad-free music listening</li>
+          <li>Download 20k songs/device</li>
+          <li>login 3 device</li>
+        </ul>
+        <button class="price-cardbutton">Sign up</button>
+      </div>
+
+      <div class="pricing-card">
+        <p class="price-card-header">1 month Free</p>
+        <h2 class="price-card-plans">Enterprise Plan</h2>
+        <p class="price-plansPrice">$59.99/mo</p>
+        <hr class="styled-hr" />
+        <ul class="priceCard-listStyle">
+          <li>Ad-free music listening</li>
+          <li>Download 40k songs/device</li>
+          <li>login for unlimited device</li>
+        </ul>
+        <button class="price-cardbutton">Sign up</button>
+      </div>
+    </div>
+    <div class="order-card">
+      <h2 class="order-header">Review Order</h2>
+      <div class="order-rowCard">
+        <div class="order-card-rowOne">
+          <h4 class="rowOne-header">ITEM</h4>
+          <img src="https://placehold.co/50x50?text=50x50" alt="item-image" />
+          <p class="rowOne-para">Limited edition cactus print bag</p>
+          <p class="rowOne-secondPara">1 litre, green color</p>
+        </div>
+        <div class="order-card-rowTwo">
+          <h4>QTY</h4>
+          <p>1</p>
+        </div>
+        <div class="order-card-rowThree">
+          <h4>TOTAL</h4>
+          <p>INR 999</p>
+        </div>
+      </div>
+      <div class="order-rowcardTwo">
+        <div class="order-card-rowfour">
+          <p style="margin: 0px; margin-top: 20px">SubTotal</p>
+          <p style="margin-top: 10px; margin-bottom: 10px">GST</p>
+          <h4 style="margin-top: 0px">Grand Total</h4>
+        </div>
+        <div class="order-card-rowfive">
+          <p style="margin: 0px; margin-top: 20px">INR 999</p>
+          <p style="margin-top: 10px; margin-bottom: 10px">INR 179</p>
+          <h4 style="margin-top: 0px">INR 1178</h4>
+        </div>
+      </div>
+      <button class="order-btn">Place Order</button>
+      <p class="order-lastPara">Cart Secured by RazorPay</p>
+    </div>
+  </body>
+</html>
